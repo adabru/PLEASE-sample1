@@ -1,0 +1,9 @@
+{
+  source: "git://github.com/adabru/PLEASE-sample1",
+  trigger: "git_commit",
+  build: {
+    base: "busybox",
+    full: "echo abcdef > somefile"
+  },
+  versioning: "build"
+}
