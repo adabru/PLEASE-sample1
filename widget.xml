@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <Module>
+    <ModulePrefs title="Adabru's test widget" description="" author="Adam Brunnmeier" author_email="brunnmeier@dbis.rwth-aachen.de" height="250" width="1200">
+    </ModulePrefs>
+    <Content type="html">
+    <h2>Hello world!</h2>
+    </Content>
+</Module>
+
