@@ -13,7 +13,7 @@ JSON for curl:
       deploy: {
         space: {
           base: "build",
-          command: "./start.sh",
+          command: "cd PLEASE-sample1 \n./start.sh",
           widgets: ["$ip4_http/80/widget.xml"]
         }
     }
