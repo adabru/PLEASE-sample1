@@ -8,12 +8,13 @@ JSON for curl:
     zero: {
       build: {
         base: "alpine",
-        full: "apk add --no-cache git && git clone git://github.com/adabru/PLEASE-sample1"
+        full: "apk add --no-cache git \ngit clone git://github.com/adabru/PLEASE-sample1"
       },
       deploy: {
         space: {
           base: "build",
-          command: "./start.sh"
+          command: "./start.sh",
+          widgets: ["$ip4_http/80/widget.xml"]
         }
     }
   }
