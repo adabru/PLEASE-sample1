@@ -8,7 +8,7 @@ JSON for curl:
     zero: {
       build: {
         base: "alpine",
-        full: "apk add --no-cache git \ngit clone git://github.com/adabru/PLEASE-sample1"
+        full: "apk add --no-cache git \ngit clone git://github.com/adabru/PLEASE-sample1\n chmod +x PLEASE-sample1/start.sh"
       },
       deploy: {
         space: {
